@@ -9,7 +9,7 @@ The goal of this project is to demonstrate correct NFT contract design, testing 
 
 ##  Project Structure
 
-
+```
 
 .
 ├── contracts/
@@ -23,7 +23,7 @@ The goal of this project is to demonstrate correct NFT contract design, testing 
 ├── package-lock.json
 └── README.md # Project documentation
 
-
+```
 ---
 
 ##  Features
