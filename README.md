@@ -42,7 +42,7 @@ The goal of this project is to demonstrate correct NFT contract design, testing 
 
 If you want to run the project *without Docker*, you need:
 
-- *Node.js*: v18.x (recommended)
+- *Node.js*: v18.x 
 - *npm*: comes with Node.js
 - *Git*
 
