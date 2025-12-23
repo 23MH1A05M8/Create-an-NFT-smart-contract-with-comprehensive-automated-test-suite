@@ -53,7 +53,8 @@ If you want to run the project **without Docker**, you need:
 ##  Running Tests Locally 
 
 Install dependencies:
-```
+
+```bash
 npm install
 
 
