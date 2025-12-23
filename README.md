@@ -1,7 +1,7 @@
 
 # ERC-721 NFT Smart Contract with Automated Test Suite
 
-This project implements an *ERC-721–compatible NFT smart contract* using *Solidity* and *Hardhat, along with a **comprehensive automated test suite* and a *Dockerized environment* for reproducible testing.
+This project implements an **ERC-721–compatible NFT smart contract** using *Solidity* and *Hardhat, along with a **comprehensive automated test suite* and a *Dockerized environment* for reproducible testing.
 
 The goal of this project is to demonstrate correct NFT contract design, testing of edge cases, and containerized execution of tests without manual setup.
 
