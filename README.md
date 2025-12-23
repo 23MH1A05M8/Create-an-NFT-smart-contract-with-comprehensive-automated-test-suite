@@ -32,7 +32,7 @@ The goal of this project is to demonstrate correct NFT contract design, testing 
 - Admin-only minting
 - Maximum supply enforcement
 - Token ownership, transfers, and approvals
-- Metadata handling via tokenURI
+- Metadata handling via ```tokenURI```
 - Comprehensive automated tests
 - Docker container that installs dependencies and runs tests by default
 
@@ -52,22 +52,22 @@ If you want to run the project *without Docker*, you need:
 
 ##  Running Tests Locally 
 
-## Install dependencies:
-
+Install dependencies:
+```
 npm install
 
 
-## Run tests:
+Run tests:
 
 npx hardhat test
 
 
-## output:
+Expected output:
 
 8 passing
 0 failing
 
-## Running Tests with Docker
+Running Tests with Docker
 
 The Docker setup ensures a clean, reproducible environment with no manual dependency installation.
 
@@ -77,7 +77,7 @@ docker build -t nft-test-suite .
 2️. Run the Container
 docker run --rm nft-test-suite
 
-## Output:
+Output:
 
 NftCollection
   ✓ should initialize with correct name, symbol, and supply
@@ -91,7 +91,7 @@ NftCollection
 
 8 passing
 0 failing
-
+```
 # Tooling & Versions
 
 Solidity: ^0.8.20
@@ -104,7 +104,7 @@ Chai: v4
 
 Docker Base Image: node:18-alpine
 
-Assumptions
+## Assumptions
 
 Token IDs are provided externally during minting
 
@@ -117,7 +117,7 @@ No on-chain enumeration (ERC721Enumerable) is implemented
 
 Safe transfer checks for ERC721Receiver are omitted for simplicity
 
-Outcome
+## Outcomes
 
 Fully functional ERC-721 NFT smart contract
 
